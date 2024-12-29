@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: https://blog.pigrabb.com
+Sitemap: https://blog.pigrabb.com/sitemap-index.xml

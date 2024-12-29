@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "authors",
+  "info": {
+    "singularName": "author",
+    "pluralName": "authors",
+    "displayName": "author"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "nickname": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "profileImages": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
