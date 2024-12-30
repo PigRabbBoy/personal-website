@@ -21,4 +21,22 @@ export default [
       },
     },
   },
+  {
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: {
+        useDefaults: true,
+        directives: {
+          'img-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'market-assets.strapi.io',
+            'storage-cms.pigrabb.com',
+            '*.r2.cloudflarestorage.com',
+          ],
+        },
+      },
+    },
+  },
 ];
